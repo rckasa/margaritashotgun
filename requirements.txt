@@ -13,3 +13,5 @@ logutils
 python-gnupg==0.3.9
 prompt_toolkit
 python-decouple
+certifi>=2022.12.7 # not directly required, pinned by Snyk to avoid a vulnerability
+cryptography>=39.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
